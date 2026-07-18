@@ -1,0 +1,7 @@
+# YOLO 数据集配置文件（自动生成，请勿手动修改）
+path: dataset   # 数据集根目录
+train: images/train               # 训练集图片相对路径
+val: images/val                   # 验证集图片相对路径
+
+nc: 4            # 类别数量
+names: ['body', 'bottom_fin', 'top_fin', 'tail']              # 类别名称列表
